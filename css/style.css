@@ -560,16 +560,17 @@ video{
 		margin-right:10%;
 	}
 		#contact h1{
-			
+			color:black;
 			}
 		.contact-me{
-			
+			color:black;
 		}
 	.mail{
 		font-size:100%;
 		float:left;
 		margin-left:20%;
 		margin-bottom:10px;
+		color:black;
 		
 	}
 }
