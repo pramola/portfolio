@@ -544,6 +544,13 @@ video{
 	video{
 		margin-left:5%;
 	}
+	#contact{
+		height:100vh;
+		background:url(../images/contact-img.jpg) no-repeat center center fixed ;
+	-webkit-background:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
 	.pro-vid{
 		margin-left:0%;
 	}
