@@ -1,0 +1,565 @@
+html{
+	scroll-behavior:smooth;
+}
+#header{
+
+    background-image:url(../images/background-white.jpg) ;
+	
+    height:100vh;
+
+    background-image:linear-gradient(rgba(0,0,0,0.0),rgba(0,0,,0.6));
+    background-repeat:no-repeat;
+    background-position:center;
+
+
+}
+*{
+	margin:0px;
+	padding:0px;
+
+	border-sizing:border-box;
+}
+.body{
+	margin:0;
+	padding:0;
+	font-size:20px;	
+	font-family:'Flamenco', cursive;
+}
+.clearfix:after{
+	 	content:".";
+		visibility:hidden;
+		display:block;
+		clear:both;
+		height:0px;
+
+}
+.row{
+	max-width:1180px;
+	margin:0 auto;
+}
+#{
+    margin:0px;
+    padding:0px;
+    text-decoration:none;
+
+
+}
+
+.logo{
+	height:160px;
+	width:auto;
+	float:left;
+	margin:10px;
+	background-color:transparent;
+	
+}
+.mobile ul{
+	float:right;
+	display:block;
+
+}
+.mobile ul li{
+	list-style:none;
+	display:none;
+	margin-top:20px;
+	margin-right:100px;
+
+
+}
+.mobile  ul li a{
+	text-decoration:none;
+	color:black;
+}
+.mobile ul li a:hover{
+	background-color:rgba(0,0,0,0.3);
+	border-radius:200px;
+}
+.main-nav li a
+{	display:inline-block;
+	text-decoration:none;
+	font-size:90%;
+	text-decoration:none;
+	color:black;
+	font-size:20px;
+	padding:5px;
+	font-family:'Flamenco', cursive;	
+}
+.main-nav li{
+		display:inline-block;
+		margin-left:40px;
+		list-style:none;
+
+}
+.main-nav li:hover{
+	background-color:rgba(0,0,0,0.3);
+	border-radius:20px;
+
+
+}
+.main-nav{
+	display:inline-block;
+	float:right;
+	margin-top:60px;
+
+}
+.main-content-header{
+	width:1180px;
+	position:absolute;
+	top:70%;
+	left:50%;
+
+	font-family:'Flamenco', cursive;
+	transform: translate(-50%,-50%); 
+}
+h1{
+	color:rgba(0,0,0,0.6);
+
+	font-size:240%;
+	word-spacing:5px;
+	margin-bottom:30px;
+	letter-spacing:2px;
+	text-transform:uppercase;
+}
+.btn{
+	display:inline-block;
+	padding:10px 30px;
+	font-weight:lighter;
+	text-decoration:none;
+	border-radius:200px;
+}
+.btn-full{
+	background-color:transparent;
+	color:black;
+	margin-right:15px;
+	border:1px solid black;
+}
+.btn-nav-full{
+	background-color:transparent;
+	color:black;
+	border-radius:200px;
+	border:1px solid black;
+}
+.btn-full:hover{
+	background-color:rgba(0,0,0,0.3);
+}
+.btn-nav-full:hover{
+	background-color:rgba(0,0,0,0.3);
+}
+.mobile-icon{
+	display:none;
+}
+.colorchange{
+		animation: colorchangeTEAM-PLAYER 1s infinite;
+		
+}
+@keyframes colorchangeTEAM-PLAYER{
+		0%{
+			color:rgba(0,0,0,0.3);
+		}
+		25%{color:#bf55ec;}
+		50%{color:white;}
+		75%{color:black;}
+		100%{color:rgba(0,0,0,0.3);}
+}
+
+/*/////responsive query//////////*/
+
+@media only screen and (max-width:1180px){
+	.main-content-header{
+		width:100%;
+		padding:0 2%;
+	}
+
+}
+@media only screen and (max-width: 998px)
+{
+	h1
+	{
+		font-size:200%;
+	}
+	
+	/*.main-nav li a{
+		display:block;
+	}
+	.main-nav li{
+		display:none;
+		margin-right:50px;
+	}
+	.mobile-icon{
+		display:block;
+		float:right;
+		margin-top:40px;
+		
+		color:rgba(0,0,0,0.3);
+		font-size:200%;
+
+	}
+*/	
+}
+
+@media only screen and (max-width: 768px){
+	
+	h1{
+		font-size:180%;
+	}
+	
+	
+	.main-nav{
+
+		display:none;
+	
+	
+	}/*
+	.main-nav ul li {
+		display:block;
+	}
+	.main-nav li a{
+		display:block;
+	}
+	.main-nav li{
+	
+		margin-right:50px;
+	}*/
+	.mobile-icon{
+		display:block;
+		float:right;
+		margin-top:40px;
+		margin-right:20px;
+		color:black;
+
+	}
+	.main-nav{
+		float:right;
+	}
+	.main-nav li{
+		
+		display:block;
+		margin-top:5px;
+
+	}
+}
+
+	
+
+@media only screen and (max-width:480px)
+{
+	.btn-full{
+		margin-bottom:20px;
+	}
+	h1{font-size:160%;}
+}
+//////////////////////////////////////
+	
+	.desktop a{
+			float:right;
+			display:block;
+			color:black;
+			text-align:center;
+			padding:14px 16px;
+			text-decoration:none;
+			font-size:17px;
+			margin-top:30px;
+			margin-right:20px;
+		
+		}
+		a{
+			text-decoration:none;
+		}
+		.desktop a:hover{
+			background-color:rgba(0,0,0,0.3);
+			border-radius:200px;
+			color:white;
+		}
+		.desktop  .active {
+			background-color:rgba(0,0,0,0.002);
+			color:black;
+		}
+		.desktop .buttn{
+			display:none;
+		}
+
+	@media screen and (max-width: 786px)
+	{
+		.desktop a:not(all-child){
+			display:;
+		}
+		
+		.desktop a.buttn{
+			float:right;
+			display:none;
+			background-color:rgba(0,0,0,0.002);
+			color:black;
+			
+		}
+		.desktop{
+			
+			margin-top:0;
+
+		}
+		
+	}
+	@media screen and (max-width:786px){
+		.desktop.responsive{
+			position: absolute;
+		}
+		.desktop.responsive a.buttn{
+			position: fixed;
+			top:0;
+			right:0px;
+			display:block;
+			
+		}
+		.desktop.responsive a{
+			float:none;
+			display:block;
+			text-align: left;
+		}
+	}
+	.desktop{
+			background-color:rgba(0,0,0,0.002);
+			overflow: hidden;
+			float:right;
+			margin-right:50px;
+			margin-top:50px;
+		}
+		.desktop a{
+			margin-right:30px;
+			font-size:20px;
+			font-family:"Flamenco",sans-serif;
+			text-transform:uppercase;
+			color:black;
+		}
+		@media only screen and (max-width:480px)
+		{
+			.main-content-header{
+				margin-left:2%;
+			}
+			.desktop a{
+				display:inline-block;
+				font-size:90%;
+				float:center;
+				
+			}
+
+		}
+
+/*////////////////2nd/////////////////*/
+
+
+ #skill{
+	background-color:;
+	height:100vh;
+	width:100%;
+}
+#skill h1{
+	text-align:center;
+	margin-top:50px;
+	font-family:"Flamenco",sans-serif;
+
+}
+
+.per-chart{
+
+	width:100%px;
+	margin:250px auto;
+}
+.per-chart .box {
+	background-color:;
+	width:25%;
+	float:left;
+	color:black;
+	}
+
+.per-chart .box canvas
+{
+	position:absolute;
+	top:0
+	left:0	
+}
+.per-chart .box .chart{
+	width:110px;
+	height:110px;
+	margin:0 auto;
+	position:relative;
+	text-align:left;
+	font-size:30px;
+	line-height:110px;
+
+	font-family:"Flamenco", sans-serif;
+}
+
+@media only screen and (max-width:786px){
+
+		#skill{
+			height:120vh;
+			width:100%;
+
+		}
+		.per-chart  {
+			width:47%;
+			height:2%;
+			margin-top:2%;
+			
+			float:left;
+			background-color:;
+			margin-left:0%;
+		
+			
+		}
+		.per-chart .box{
+			width:200%;
+			margin-top:5px;
+			background-color:
+			height:800%;
+			position:relative;
+			margin-left:0%
+
+		}
+		
+		
+		.per-chart .box .chart{
+			color:black;
+			margin-bottom:20px;
+			display:inline;
+			
+			margin-left:30%;
+		
+		}
+		.c-c{
+			background-color:;
+		}
+	
+
+}
+#project{
+	/*///////*/
+
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#aebcbf+0,6e7774+32,0a0809+100 */
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e0e0e0+21,c3c3c3+32,979797+88,c1c1c1+88,959595+88,979797+88 */
+background:;
+
+	/*///////*/
+	height:100vh;
+	width:100%;
+	font-family:"Flamenco",sans-serif;
+	margin-top:50px;
+
+}
+#project h1{
+	background-color:;
+	text-align:center;
+	margin-left:35%;
+	margin-right:35%;
+}
+#project h1:hover{
+	background-color:rgba(0,0,0,0.3);
+	border-radius:200px;
+	color:white;
+
+}
+video{
+	
+	margin-left:5%;
+
+	margin-top:;
+	margin-bottom:5px;
+	border-radius:50px;
+
+}
+.pro-vid{
+	background-color:;
+	margin-left:35%;
+	margin-right:35%;
+	border-radius:50px;
+}
+
+.pro-desc{
+	background-color:rgba(0,0,0,0.5);
+	margin-left:35%;
+	margin-right:35%;
+	margin-top:50px;
+	border-radius:20px;
+
+}
+.pro-desc p{
+	color:white;
+
+}
+
+
+/*/////////*/
+
+
+#contact{
+	height:100vh;
+	width:auto;
+	
+	font-family:"Flamenco",sans-serif;
+	background:url(../images/contact-img.jpg) no-repeat center center fixed ;
+	-webkit-background:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	
+}
+#contact h1{
+	text-align:center;
+	color:white;
+	background-color:;
+	margin-left:35%;
+	margin-right:35%;
+	border-radius:200px;
+	margin-top:20px;
+}
+#contact h1:hover{
+	background-color:rgba(0,0,0,0.3);
+
+}
+.contact-me{
+	color:white;
+	margin-left:20%;
+	margin-top:80px;
+	font-family:"Flamenco",sans-serif;
+	font-size:155%;
+}
+
+.maps{
+	margin-left:20%;
+	margin-top:20px;
+	border-radius:200px;
+
+}
+.mail{
+	background-color:none;
+	color:white;
+	float:right;
+	font-size:150%;
+	margin-right:20%;
+	margin-top:80px;
+}
+
+/*///////////////////////////////*/
+
+@media only screen and (max-width:480px){
+	video{
+		margin-left:5%;
+	}
+	.pro-vid{
+		margin-left:0%;
+	}
+	.pro-desc{
+		margin-left:10%;
+		margin-right:10%;
+	}
+	.mail{
+		font-size:100%;
+		float:left;
+		margin-left:20%;
+		margin-bottom:10px;
+	}
+}
+
+
+
+
+

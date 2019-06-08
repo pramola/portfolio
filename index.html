@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Home</title>
+            <link rel="stylesheet" type="text/css" href="css/style.css">
+            <link href="https://fonts.googleapis.com/css?family=Flamenco&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            
+
+            </head >
+    <body >
+
+        <div id="header">
+             <nav>
+                
+                   
+                <div>
+                      <img class="logo" src="logo.png" alt="logo">
+                      <div class="desktop" id="check">
+    
+                                <a href="#skill" class="active">skills</a>
+                                 <a href="#project">projecTS</a>
+                                <a href="#contact">contact </a>
+        
+     
+     
+         
+                                  <a href="javascript:void(0);" class="buttn" onclick="myFunction()">
+                                    <i class="fa fa-bars"></i>
+                                             </a>
+            
+                </div>      
+               
+             </nav>
+             <div class="main-content-header">
+                <h1>A highly motivated ,<span class="colorchange">team-player</span><br> ready to learn <h1>
+                    <a href="#" class="btn btn-full">Resume</a>
+                    <a href="https://www.linkedin.com/in/pankaj-ramola-909045112/" class="btn btn-nav-full">LinkedIn</a>
+             </div>
+
+           </div>
+
+           
+                    <div id="skill">
+                            
+                            <h1>My Skills</h1>
+                         <div class="per-chart"> 
+                         
+                         <div class="box">       <div class="chart" data-percent="80" >C/C++<canvas height="110" width="110"></div>     </div>  
+                        <div class="box">       <div class="chart" data-percent="90" >HTML5 <canvas height="110" width="110"></div>     </div>
+                         <div class="box">       <div class="chart" data-percent="73" >CSS-3  <canvas height="110" width="110"></div>     </div>
+                         <div class="box">        <div class="chart" data-percent="80">JScript<canvas height="110" width="110"></div>      </div>
+                    
+                            </div>
+                        
+
+                    </div>
+
+
+
+                    <div>
+                      <div id="project">
+                        <class="project">
+                         <h1> PROJECT</h1>
+
+                      
+                      <div class="pro-vid">
+                        <video controls width="315px" height="200px">
+                              <source src="video.mp4" type="video/mp4" >
+                          </video>
+                      </div>
+                      <div class="pro-desc">
+                      <p>My team of four students made a helmet that can send location of the rider during an accident to the nearest possible hospital and to the family members with the help of the server</p>
+                      </div>
+                </div>
+                    
+                    <div id="contact">
+                      <div>
+                          <h1>CONTACT</h1>
+                          <div class="mail"><p>          </p><i class="fa fa-envelope-o"> <br>pankaj.ramola.549@gmail.com</i></div>
+
+                    </div>
+                          <div class="contact-me">
+                            <strong>Address</strong><br>
+                             R.K. Puram, New Delhi<br>
+                             India-110022
+                          </div>
+                          <div class="maps">
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.070261524832!2d77.16362951436481!3d28.56765279376682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1da14d2c0965%3A0x329023ebb8c472c4!2sUttara+Swamimalai+Temple!5e0!3m2!1sen!2sin!4v1559933748324!5m2!1sen!2sin" width="200" height="150" frameborder="0" style="border-radius:200px" allowfullscreen></iframe>
+                        </div>
+                      </div>
+
+                <footer>
+                        <script  type="text/javascript" >
+                                    function myFunction() {
+                var x = document.getElementById("check");
+                if (x.className === "main-nav"){
+                    x.className += " responsive";
+                } else {
+                    x.className = "main-nav";
+                }
+            }
+
+                        </script >
+
+                        <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  ></script>
+  <script
+  src="jquery.easypiechart.js"
+  ></script>
+  <script>
+    $(function() {
+        $('.chart').easyPieChart({
+            //your options goes here
+        });
+    });
+</script>
+                        </footer>
+
+
+
+            </body>
+
+    </html>
