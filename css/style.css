@@ -551,6 +551,7 @@ video{
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	background-size:cover;
+	}
 	.pro-vid{
 		margin-left:0%;
 	}
@@ -558,11 +559,18 @@ video{
 		margin-left:10%;
 		margin-right:10%;
 	}
+		#contact h1{
+			
+			}
+		.contact-me{
+			
+		}
 	.mail{
 		font-size:100%;
 		float:left;
 		margin-left:20%;
 		margin-bottom:10px;
+		
 	}
 }
 
