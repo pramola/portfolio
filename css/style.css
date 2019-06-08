@@ -495,16 +495,12 @@ video{
 	width:auto;
 	
 	font-family:"Flamenco",sans-serif;
-	background:url(../images/contact-img.jpg) no-repeat center center fixed ;
-	-webkit-background:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	background-size:cover;
+	
 	
 }
 #contact h1{
 	text-align:center;
-	color:white;
+	color:black;
 	background-color:;
 	margin-left:35%;
 	margin-right:35%;
@@ -516,7 +512,7 @@ video{
 
 }
 .contact-me{
-	color:white;
+	color:black;
 	margin-left:20%;
 	margin-top:80px;
 	font-family:"Flamenco",sans-serif;
@@ -531,7 +527,7 @@ video{
 }
 .mail{
 	background-color:none;
-	color:white;
+	color:black;
 	float:right;
 	font-size:150%;
 	margin-right:20%;
